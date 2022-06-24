@@ -1,0 +1,7 @@
+FROM golang:1.18
+
+WORKDIR /usr/src/app
+
+COPY mymodule ./
+
+RUN go mod init example/sum
