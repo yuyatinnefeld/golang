@@ -1,0 +1,11 @@
+FROM golang:1.18
+
+WORKDIR /usr/src/app
+
+COPY mymodule ./
+
+COPY conf.yaml ./
+
+RUN go mod init mymodule
+
+RUN go mod tidy
