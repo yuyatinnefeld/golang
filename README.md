@@ -18,15 +18,19 @@
 
 ## step8 - REST
 
-## step9 - Postgres
+## step9 - Shell Cmd 
 
-## step10 - Cloud (AWS, GCP)
+## step10 - Gota (DS Package)
 
-## step11 - Gota (DS Package)
+## step11 - CICD Gitlab
 
-## step12 - CICD Gitlab
+## step12 - CICD Github
 
-## step13 - CICD Github
+## step13 - k8s
 
-## step14 - k8s
+## step14 - Postgresql
+
+## step15 - MongoDB
+
+## step16 - Redis
 
