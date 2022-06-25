@@ -1,11 +1,6 @@
 ```bash
 # create initial fiels
 
-mkdir mymodule && cd mymodule
-vi main.go
-mkdir mypackage && cd mypackage
-mypackage.go
-
 # build image
 docker build -t my-golang-image .
 
