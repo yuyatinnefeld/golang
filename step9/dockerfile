@@ -1,0 +1,7 @@
+FROM golang:1.18
+
+WORKDIR /usr/src/app
+
+COPY main.go ./
+
+RUN go mod init example/hello
