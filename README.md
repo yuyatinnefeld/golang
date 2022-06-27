@@ -20,17 +20,19 @@
 
 ## step9 - Shell Cmd 
 
-## step10 - Gota (DS Package)
+## step10 - k8s
 
-## step11 - CICD Gitlab
+## step11 - Gota (DS Package)
 
-## step12 - CICD Github
+## step12 - CICD Gitlab
 
-## step13 - k8s
+## step13 - CICD Github
 
-## step14 - Postgresql
+## step14 - k8s
 
-## step15 - MongoDB
+## step15 - Postgresql
 
-## step16 - Redis
+## step16 - MongoDB
+
+## step17 - Redis
 
