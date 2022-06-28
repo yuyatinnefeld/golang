@@ -1,0 +1,10 @@
+FROM golang:1.18
+
+WORKDIR /usr/src/app
+
+COPY main.go ./
+
+RUN go mod init example/gota
+
+RUN go mod tidy
+
