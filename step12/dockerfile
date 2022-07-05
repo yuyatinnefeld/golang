@@ -1,0 +1,12 @@
+FROM golang:1.18
+
+WORKDIR /usr/src/app
+
+COPY tcpClient.go ./
+
+COPY tcpServer.go ./
+
+RUN go mod init example/tcp
+
+RUN go mod tidy
+
