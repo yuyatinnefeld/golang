@@ -1,0 +1,36 @@
+image: golang:1.19-rc-bullseye
+
+variables:
+  PROJECT_ID: yuyatinnefeld-dev
+
+stages:
+  - test
+  - deploy
+
+before_script:
+  - go mod init example/cicd-test
+  - go mod tidy
+
+unit_tests:
+  stage: test
+  script:
+    - go test
+
+fmt_check:
+  stage: test
+  script:
+    - go fmt main.go
+
+linting:
+  stage: test
+  script:
+    - golint main.go || true
+
+deploy-gcp:
+  stage: deploy
+  image: google/cloud-sdk:slim
+  before_script:
+    - gcloud auth activate-service-account --key-file ${GCP_SERVICE_ACCOUNT_KEY_DEV}
+  script:
+    - gcloud config set project ${PROJECT_ID}
+    - gcloud run deploy hello-golang-service --source . --region europe-west1 --allow-unauthenticated 
