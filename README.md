@@ -24,11 +24,11 @@
 
 ## step11 - Gota (DS Package)
 
-## step12 - CICD Gitlab
+## step12 - TCP/IP
 
-## step13 - CICD Github
+## step13 - CICD Gitlab
 
-## step14 - k8s
+## step14 - CICD Github
 
 ## step15 - Postgresql
 
