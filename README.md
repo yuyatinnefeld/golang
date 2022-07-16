@@ -34,7 +34,9 @@
 
 ## step16 - Postgresql
 
-## step17 - MongoDB
+## step16 - Postgresql - Docker-compose
+
+## step16.1 - MongoDB
 
 ## step18 - Redis
 
