@@ -29,6 +29,7 @@ python input_data.py
 go mod init mongo-app
 go mod tidy
 go build main.go
+go build server.go
 
 
 curl -X GET http://localhost:9090/jobs
