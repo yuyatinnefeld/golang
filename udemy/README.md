@@ -23,3 +23,22 @@
 - new vs make
 - struct
 
+# step4
+- method
+- constractor
+- embedded
+- non-struct
+- interface
+- type assertion
+- stringer
+- custom error
+
+# step5
+- goroutine and sync.WaitGroup
+- channel
+- buffered channel
+- producer and consumer
+- fan-out fan-in
+- default selection
+- for break
+
