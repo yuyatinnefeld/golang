@@ -42,3 +42,14 @@
 - default selection
 - for break
 
+# step6
+- private package
+
+# step7 
+- public package
+
+# step8
+- testing
+- gofmt
+- 3rd party package
+- godoc
