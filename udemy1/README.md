@@ -50,6 +50,8 @@
 
 # step8
 - testing
+
+# step9
 - gofmt
 - 3rd party package
 - godoc
