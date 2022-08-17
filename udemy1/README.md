@@ -50,8 +50,10 @@
 
 # step8
 - testing
+- gofmt
 
 # step9
-- gofmt
 - 3rd party package
+
+# step10
 - godoc
