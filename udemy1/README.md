@@ -53,7 +53,7 @@
 - gofmt
 
 # step9
-- 3rd party package
+- godoc
 
 # step10
-- godoc
+- 3rd party package
