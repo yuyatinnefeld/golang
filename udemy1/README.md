@@ -56,4 +56,17 @@
 - godoc
 
 # step10
-- 3rd party package
+- 1st and 3rd party packages
+
+
+# step11
+- network packages
+- hmac
+- json
+- net/http
+
+# step12
+- 3rd party packages
+- talib (stock price)
+- semaphore
+- pubnub (bitcoin price)
