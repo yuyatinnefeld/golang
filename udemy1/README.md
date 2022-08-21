@@ -70,3 +70,8 @@
 - talib (stock price)
 - semaphore
 - json-rpc 2.0 over websocket (bitcoin price)
+
+# step13 
+- database
+- sqlite
+- db basics
