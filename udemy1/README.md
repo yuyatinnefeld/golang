@@ -69,4 +69,4 @@
 - 3rd party packages
 - talib (stock price)
 - semaphore
-- pubnub (bitcoin price)
+- json-rpc 2.0 over websocket (bitcoin price)
