@@ -75,3 +75,9 @@
 - database
 - sqlite
 - db basics
+
+# step14
+- web application
+- listen and serve
+- template
+- http redict
