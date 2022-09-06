@@ -1,1 +1,39 @@
 2022/08/26 07:33:07 main.go:13: test
+2022/08/26 16:36:11 main.go:14: test
+2022/08/26 16:36:11 bitflyer.go:55: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2022/08/26 16:36:12 bitflyer.go:90: url=me/getbalance resp={"status":-500,"error_message":"Key not found","data":null}
+2022/08/26 16:36:12 bitflyer.go:98: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
+2022/09/06 19:58:56 main.go:14: test
+2022/09/06 19:58:56 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2022/09/06 19:58:56 bitflyer.go:93: url=me/getbalance resp={"status":-500,"error_message":"Key not found","data":null}
+2022/09/06 19:58:56 bitflyer.go:101: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
+2022/09/06 19:58:56 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2022/09/06 19:59:59 main.go:14: test
+2022/09/06 19:59:59 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2022/09/06 20:00:00 bitflyer.go:93: url=me/getbalance resp=[{"currency_code":"EUR","amount":0.0,"available":0.0},{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0}]
+2022/09/06 20:00:00 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2022/09/06 20:01:19 main.go:14: test
+2022/09/06 20:01:19 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2022/09/06 20:01:19 bitflyer.go:93: url=me/getbalance resp=[{"currency_code":"EUR","amount":0.0,"available":0.0},{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0}]
+2022/09/06 20:01:19 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2022/09/06 20:06:45 bitflyer.go:166: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/06 20:08:13 main.go:15: test
+2022/09/06 20:08:13 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2022/09/06 20:08:14 bitflyer.go:93: url=me/getbalance resp=[{"currency_code":"EUR","amount":0.0,"available":0.0},{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0}]
+2022/09/06 20:08:14 bitflyer.go:166: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/06 20:08:45 main.go:15: test
+2022/09/06 20:08:45 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2022/09/06 20:08:45 bitflyer.go:93: url=me/getbalance resp=[{"currency_code":"EUR","amount":0.0,"available":0.0},{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0}]
+2022/09/06 20:08:45 bitflyer.go:166: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/06 20:09:57 main.go:14: test
+2022/09/06 20:09:57 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2022/09/06 20:09:57 bitflyer.go:93: url=me/getbalance resp=[{"currency_code":"EUR","amount":0.0,"available":0.0},{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0}]
+2022/09/06 20:09:57 bitflyer.go:166: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/06 20:20:18 main.go:14: test
+2022/09/06 20:20:18 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2022/09/06 20:20:18 bitflyer.go:93: url=me/getbalance resp=[{"currency_code":"EUR","amount":0.0,"available":0.0},{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0}]
+2022/09/06 20:20:18 bitflyer.go:166: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2022/09/06 20:40:16 main.go:13: test
+2022/09/06 20:40:16 bitflyer.go:58: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2022/09/06 20:40:16 bitflyer.go:93: url=me/getbalance resp=[{"currency_code":"EUR","amount":0.0,"available":0.0},{"currency_code":"JPY","amount":0.0,"available":0.0},{"currency_code":"BTC","amount":0.0,"available":0.0},{"currency_code":"ETH","amount":0.0,"available":0.0},{"currency_code":"DOT","amount":0.0,"available":0.0},{"currency_code":"XTZ","amount":0.0,"available":0.0},{"currency_code":"XLM","amount":0.0,"available":0.0},{"currency_code":"BAT","amount":0.0,"available":0.0},{"currency_code":"ETC","amount":0.0,"available":0.0},{"currency_code":"LTC","amount":0.0,"available":0.0},{"currency_code":"BCH","amount":0.0,"available":0.0},{"currency_code":"MONA","amount":0.0,"available":0.0},{"currency_code":"LSK","amount":0.0,"available":0.0}]
+2022/09/06 20:40:16 bitflyer.go:166: connecting to wss://ws.lightstream.bitflyer.com/json-rpc

@@ -3,12 +3,14 @@
 # setup 
 ```bash
 
+# create module
+export GO111MODULE="on"
+
 cd udemy2
 # create project
 mkdir trading && cd trading
 
-# create module
-export GO111MODULE="on"
+
 mkdir mymodule && cd mymodule
 go mod init mymodule
 
