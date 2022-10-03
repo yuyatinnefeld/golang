@@ -17,6 +17,9 @@
 ### 03 - db table definition for postgresql
 - https://dbdiagram.io/d
 
+### 04 - SQL compiler
+- https://docs.sqlc.dev/en/latest/overview/install.html
+
 
 ## Steps
 
@@ -59,4 +62,29 @@ make migratedown
 docker exec -it postgres14 /bin/sh
 psql simple_bank
 \dt
+```
+
+### connect db and golang application
+```bash
+# check if the sqlc installed
+sqlc version
+
+# create an empty sqlc.yaml settings file
+cd simplebank
+sqlc init
+
+# update the setting file
+vi sqlc.yaml
+
+# run sql query
+vi query/account.sql
+make sqlc
+
+# verify the new files
+ls db/sqlc
+
+
+# create go modules
+mkdir db
+mkdir util
 ```
